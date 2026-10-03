@@ -1,0 +1,24 @@
+{
+  "recordedAt": "2026-10-03T22:01:43.950505+00:00",
+  "nodeVersion": "v22.16.0",
+  "nodeChecks": {
+    "command": "node tools/check-site.mjs",
+    "exitCode": 0,
+    "tests": null,
+    "output": "PASS: 1 local page/asset links exist. Follow docs/VERIFICATION.md for browser checks.\n"
+  },
+  "browserChecks": {
+    "id": 5,
+    "status": "passed",
+    "checks": [
+      "No document horizontal overflow at 1200, 800, 500 and 320 CSS pixels",
+      "First Tab exposes skip link; Enter transfers focus to main",
+      "Tab route and reverse Tab verified; descriptive contact link reachable",
+      "Large-text probe remains within viewport (not a full assistive-technology audit)"
+    ],
+    "browser": "Installed Microsoft Edge via Playwright",
+    "checkedAt": "2026-10-03T21:55:11.944900+00:00",
+    "consoleErrors": []
+  },
+  "scope": "Actual local reference verification. Learner stories are not implemented. Remote CI results are separate."
+}
