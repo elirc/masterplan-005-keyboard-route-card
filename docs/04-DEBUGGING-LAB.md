@@ -12,7 +12,7 @@ These are deliberately proposed defects for a scratch branch. They are not claim
 
 ### Worked diagnosis
 
-First state the expected contract: The first Tab reveals a skip link. Activating it focuses main. Navigation, schedule, access and contact links follow meaningful source order, have visible focus, and can be traversed in reverse. Then create the smallest example from the experiment above. Compare the observed result with the contract before changing more code. The likely cause is at this boundary: **Use off-screen positioning with a visible focused state instead.**. Repair that boundary, rerun the example, and check one neighboring valid case so the repair does not merely special-case the chosen input.
+First state the expected contract: The first Tab reveals a skip link. Activating it focuses main. Navigation, schedule, access and contact links follow meaningful source order, have visible focus, and can be traversed in reverse. Then create the smallest example from the experiment above. Compare the observed result with the contract before changing more code. The likely cause is at this boundary: **Use off-screen positioning with a visible focused state instead.** Repair that boundary, rerun the example, and check one neighboring valid case so the repair does not merely special-case the chosen input.
 
 The completed reasoning record is: symptom → contract violated → input that distinguishes hypotheses → owning line or rule → minimal repair → regression evidence. This is a worked diagnostic route; fill in your actual outputs when you run it. No invented console transcript is supplied.
 
