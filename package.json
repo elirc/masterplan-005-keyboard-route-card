@@ -1,0 +1,15 @@
+{
+  "name": "masterplan-005-keyboard-route-card",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node tools/check-site.mjs",
+    "start": "node tools/serve.mjs",
+    "check": "node tools/check-site.mjs"
+  },
+  "description": "A keyboard user needs to reach the useful links on a small event page in a predictable order."
+}
