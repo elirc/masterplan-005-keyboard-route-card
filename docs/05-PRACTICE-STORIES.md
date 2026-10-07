@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Add a venue section
 
-**User need:** As a learner or user of Keyboard Route Card, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Add a venue section and a descriptive navigation link in reading order.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Improve ambiguous link text
-
-**User need:** As a learner or user of Keyboard Route Card, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Introduce a deliberately vague link in a scratch branch, then replace it.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Add a focus-route record
 
-**User need:** As a learner or user of Keyboard Route Card, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Document each tab stop and what activation does.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Support larger text
-
-**User need:** As a learner or user of Keyboard Route Card, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Inspect the page with increased text size and repair actual crowding.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Add a downloadable preparation note
 
-**User need:** As a learner or user of Keyboard Route Card, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Create a local text file and a clearly labeled download link.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Review an accidental focus trap
-
-**User need:** As a learner or user of Keyboard Route Card, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Describe how a future dialog could trap or lose focus and write acceptance examples before implementation.
 

@@ -6,9 +6,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 01: Add a venue section
 
-**Hint 1 — ownership:** Begin from `the skip link and main#main`. Add a venue section and a descriptive navigation link in reading order.
+**Hint 1 — ownership:** Begin from the `nav` links and section order in `public/index.html`. Add a venue section and a descriptive navigation link in reading order.
 
-**Hint 2 — reasoning:** Revisit the decision “Use native anchors”. Ask yourself: Explain the difference between navigating somewhere and performing an action.
+**Hint 2 — reasoning:** Revisit the decision “Avoid positive tabindex values”. Ask yourself: Predict the sequence after inserting a new link in the source.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The keyboard route remains predictable forward and backward. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -16,9 +16,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 02: Improve ambiguous link text
 
-**Hint 1 — ownership:** Begin from `the skip link and main#main`. Introduce a deliberately vague link in a scratch branch, then replace it.
+**Hint 1 — ownership:** Begin from the in-section links such as “Read the event's access information”. Introduce a deliberately vague link in a scratch branch, then replace it.
 
-**Hint 2 — reasoning:** Revisit the decision “Avoid positive tabindex values”. Ask yourself: Predict the sequence after inserting a new link in the source.
+**Hint 2 — reasoning:** Revisit the decision “Make focus visible and understandable”. Ask yourself: Explain why a visible outline does not rescue a link labeled only “here”.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The final link makes sense when read on its own. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -28,7 +28,7 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 **Hint 1 — ownership:** Begin from `the skip link and main#main`. Document each tab stop and what activation does.
 
-**Hint 2 — reasoning:** Revisit the decision “Make focus visible and understandable”. Ask yourself: Explain why a visible outline does not rescue a link labeled only “here”.
+**Hint 2 — reasoning:** Revisit the decision “Avoid positive tabindex values”. Ask yourself: Predict the sequence after inserting a new link in the source.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The recorded order matches the browser rather than the visual position alone. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -36,9 +36,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 04: Support larger text
 
-**Hint 1 — ownership:** Begin from `the skip link and main#main`. Inspect the page with increased text size and repair actual crowding.
+**Hint 1 — ownership:** Begin from the focus and `section:target` rules in `public/style.css`. Inspect the page with increased text size and repair actual crowding.
 
-**Hint 2 — reasoning:** Revisit the decision “Use native anchors”. Ask yourself: Explain the difference between navigating somewhere and performing an action.
+**Hint 2 — reasoning:** Revisit the decision “Make focus visible and understandable”. Ask yourself: Explain why a visible outline does not rescue a link labeled only “here”.
 
 **Answer direction:** A defensible solution demonstrates this observable result: No focused link or essential sentence becomes hidden. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -46,9 +46,9 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 ## Story 05: Add a downloadable preparation note
 
-**Hint 1 — ownership:** Begin from `the skip link and main#main`. Create a local text file and a clearly labeled download link.
+**Hint 1 — ownership:** Begin from the contact section in `public/index.html`. Create a local text file and a clearly labeled download link.
 
-**Hint 2 — reasoning:** Revisit the decision “Avoid positive tabindex values”. Ask yourself: Predict the sequence after inserting a new link in the source.
+**Hint 2 — reasoning:** Revisit the decision “Use native anchors”. Ask yourself: Explain the difference between navigating somewhere and performing an action.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The asset exists and the label explains both content and action. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 
@@ -58,7 +58,7 @@ There are intentionally no complete feature patches here. Use one hint, return t
 
 **Hint 1 — ownership:** Begin from `the skip link and main#main`. Describe how a future dialog could trap or lose focus and write acceptance examples before implementation.
 
-**Hint 2 — reasoning:** Revisit the decision “Make focus visible and understandable”. Ask yourself: Explain why a visible outline does not rescue a link labeled only “here”.
+**Hint 2 — reasoning:** Revisit the decision “Avoid positive tabindex values”. Ask yourself: Predict the sequence after inserting a new link in the source.
 
 **Answer direction:** A defensible solution demonstrates this observable result: The examples include opening, closing, Escape and return to the triggering control. The exact code is not prescribed. If your change achieves that result by changing an unrelated original rule, revise either the implementation or the story contract explicitly.
 

@@ -14,7 +14,7 @@ The smallest useful result answers this user need: A keyboard user needs to reac
 
 Before styling, list the useful destinations: schedule, access details and organizer contact. Put them in the source in that order. Then add supporting links within the sections. A keyboard route should feel like a coherent reading path rather than a puzzle determined by where elements happen to be positioned visually.
 
-**Pause and produce evidence:** First Tab. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Tab through header. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 2: Give the skip link a real destination
 
@@ -26,7 +26,7 @@ The link targets main#main. The negative tabindex allows focus to land there whe
 
 The skip link is positioned off-screen until focused, then shown at the top. Other links receive a clear focus outline. Test that indication against the page background and with larger text. Do not remove outline merely because a default style looks untidy; replace it with something equally discoverable.
 
-**Pause and produce evidence:** Tab through header. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** First Tab. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Check both directions and state changes
 
@@ -36,7 +36,7 @@ Use Tab to move forward and Shift+Tab to return. Activate an internal anchor and
 
 ## Keep the implementation reviewable
 
-A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process. M001 additionally contains the actual two-file baseline and a separate opening-time correction.
+A useful commit has one understandable reason to exist. Separate the initial working slice, the checks that expose its important boundaries, and the teaching material that explains it. The published commits in this repository were assembled from verified working files; they are real commits, not fabricated evidence of a long historical development process.
 
 For your own variation, commit at a point where the behavior and evidence agree. Describe the trigger, the resulting behavior and the check in the commit message or review note. Avoid mixing a rule change with unrelated formatting because it makes the learning decision harder to see.
 
